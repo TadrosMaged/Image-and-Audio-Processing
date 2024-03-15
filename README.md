@@ -5,11 +5,11 @@ This MATLAB project was developed as part of the Signals course at the Faculty o
 
 ## Features:
 1. **Image Processing Features:**
-    - **Edge Detection:** Detects edges in images using techniques like Sobel, Prewitt, or Canny edge detectors.
-    - **Blurring:** Applies blurring filters like Gaussian blur to images for smoothing or noise reduction.
+    - **Edge Detection:** Detects edges in images using the Laplacian kernel.
+    - **Blurring:** Applies blurring filters.
     - **Motion Blurring:** Simulates motion blur effects in images caused by camera or object motion.
-    - **Sharpening:** Enhances image details and edges using techniques like unsharp masking or sharpening filters.
-    - **Image Restoration:** Removes noise or artifacts from images to improve visual quality using restoration algorithms like Wiener filter.
+    - **Sharpening:** Enhances image details and edges.
+    - **Image Restoration:** Restoring the motion blurred imaged using inverse fourier transform.
 
 2. **Audio Sampling and Transmitting:**
     - Implements audio sampling techniques to digitize analog audio signals.
